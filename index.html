@@ -17,7 +17,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        primary_bg: '#ABEF5F',
+                        primarycolor: '#ABEF5F',
                         dark_bg: '#da373d',
                     },
                     backgroundImage: {
@@ -61,7 +61,11 @@
                             <i class="fa-solid fa-cart-shopping"></i>
                         </button>
                     </div>
-                    <a class="btn">Book Consult</a>
+                    <a class="btn bg-lime-300 hidden md:flex ">Book Consult
+                        <span class="text-white bg-black rounded-full px-2 py-2">
+                            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </span>
+                    </a>
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <i class="fa-solid fa-bars"></i>
@@ -86,12 +90,18 @@
                     <img src="./assets/banner.png" alt="">
                 </div>
                 <div class="text-center">
-                    <h1 class="text-5xl font-bold">A barn house of this design has a <br>striking appearance</h1>
-                    <p class="text-sm mt-5">The barn house captivates with its blend of rustic charm and modern
+                    <h1 class="text-4xl md:text-5xl font-bold">A barn house of this design has a <br>striking appearance
+                    </h1>
+                    <p class="text-sm mt-5 text-gray-500">The barn house captivates with its blend of rustic charm and
+                        modern
                         sophistication,featuring
                         weathered<br> wood, sleek
                         metal accents,and large windows that flood the space with natural light.
                     </p>
+                    <div class="mt-4">
+                        <button class="btn bg-lime-300">View Details<i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
